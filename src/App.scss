@@ -1,0 +1,26 @@
+body, h1, h2, h3, h4, h5, dl, dt, dd, ul, li, ol, th, td, p, form, fieldset, legend, button { margin: 0; padding: 0; }
+
+a {
+    text-decoration: none;
+}
+
+#GNB {
+    margin: 30px auto;
+    text-align: center;
+
+    li {
+        display: inline-block;
+        height: 35px;
+        line-height: 32px;
+        padding: 0 10px;
+        margin: 0 10px;
+        list-style: none;
+        border: 1px solid #ccc;
+        background: #fff;
+
+        a {
+            display: block;
+            color: #666;
+        }
+    }
+}
